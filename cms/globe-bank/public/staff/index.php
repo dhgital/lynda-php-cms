@@ -1,26 +1,9 @@
-<!doctype html>
+<?php require_once('../../private/initialize.php'); ?>
 
-<html lang="en">
-<head>
-	<title>Globe Bank - Staff Members</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="../stylesheets/staff.css">
-</head>
+<?php $page_title = 'Staff Menu'; ?>
+<?php include(SHARED_PATH . '/staff_header.php'); ?>
 
-<body>
-	<header>
-		<h1>Globe Bank - Staff Members</h1>
-	</header>
-	<nav>
-		<ul>
-			<li><a href="index.php">Menu</a>
-			</li>
-		</ul>
-	</nav>
-	<main id="content">Coming Soon.
-	</main>
-	<footer>&copy;
-		<?php echo date('Y'); ?> Globe Bank
-	</footer>
-</body>
-</html>
+<div id="content">
+</div>
+
+<?php include(SHARED_PATH . '/staff_footer.php'); ?>
